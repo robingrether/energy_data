@@ -4,7 +4,7 @@ This repository contains some useful scripts for energy data. At the moment, it 
 ## How to use the SMARD script: `download_scripts_SMARD.py`
 Here you find an example of how to use the SMARD API script. Attention: All instances of `pd.Timestamp` must be timezone-aware! But you can use any timezone you want, the script will do necessary conversions by itself.
 
-```
+```python
 import download_scripts_SMARD as smard
 import pandas as pd
 
@@ -78,7 +78,7 @@ smard.download_DE_demand_data(start, end)
 ## How to use the UK script: `download_scripts_UK.py`
 Here you find an example of how to use the BMRS API and EirGrid script. Attention: All instances of `pd.Timestamp` must be timezone-aware! But you can use any timezone you want, the script will do necessary conversions by itself.
 
-```
+```python
 import download_scripts_UK as uk_api
 import pandas as pd
 
